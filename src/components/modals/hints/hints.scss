@@ -1,0 +1,35 @@
+.hints {
+  &-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ion-text-color);
+    background: var(--ion-color-secondary);
+    max-width: 50px;
+    margin: 2px;
+    aspect-ratio: 1;
+    border: 2px solid var(--ion-color-secondary-contrast);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px var(--ion-color-light-contrast);
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &.correct {
+      color: #fff;
+      background: var(--ion-color-success);
+      border: 2px solid transparent !important;
+      cursor: default;
+    }
+
+    &.active {
+      border: 2px solid #82b1c3;
+      cursor: default;
+    }
+  }
+
+  &-btn--icon {
+    height: 0.75rem;
+  }
+}

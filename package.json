@@ -1,0 +1,55 @@
+{
+  "name": "wordle",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ionic/react": "^7.5.3",
+    "@ionic/react-router": "^7.5.3",
+    "classnames": "^2.3.2",
+    "i": "^0.3.7",
+    "i18next": "^23.6.0",
+    "immer": "^10.0.3",
+    "ionicons": "^7.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.3.1",
+    "react-router": "5.3.4",
+    "react-router-dom": "5.3.4",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.34",
+    "@types/react-dom": "^18.2.14",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.1.1",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "sass": "^1.69.5",
+    "vite": "^4.5.0",
+    "vite-plugin-env-html": "^0.1.2",
+    "vite-plugin-svgr": "^4.1.0"
+  },
+  "browserList": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

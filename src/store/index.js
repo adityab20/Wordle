@@ -1,0 +1,5 @@
+export { default as useBoardStore } from './board'
+export { default as useHintsStore } from './hints'
+export { default as useModalsStore } from './modals'
+export { default as useSettingsStore } from './settings'
+export { default as useStatisticsStore } from './statistics'

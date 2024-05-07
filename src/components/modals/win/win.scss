@@ -1,0 +1,21 @@
+.logo {
+  &-copy {
+    stroke: var(--submit-btn-color);
+    fill: var(--submit-btn-color);
+  }
+
+  &-twitter {
+    fill: var(--twitter-color);
+  }
+}
+
+.win-earned {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+}
+
+ion-toast {
+  --width: fit-content;
+}

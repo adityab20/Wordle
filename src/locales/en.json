@@ -1,0 +1,96 @@
+{
+  "translation": {
+    "mode": {
+      "daily": "Daily",
+      "unlimited": "Unlimited"
+    },
+    "win": {
+      "title": "You win!",
+      "share": {
+        "title": "Share word",
+        "statement": "I guessed this word in {{row}}/{{tries}} tries.",
+        "question": "Can you guess this word?"
+      },
+      "tryAgainButton": "Play again"
+    },
+    "defeat": {
+      "title": "You lost",
+      "answer": "Answer is",
+      "tryAgainButton": "Try again"
+    },
+    "wordNotFound": "Word not found",
+    "nextGame": "Next update in {{timer}}",
+    "copy": "Copied!",
+    "settings": {
+      "title": "Settings",
+      "boardSize": "Board size",
+      "wordCheck": {
+        "title": "Check words",
+        "desc": "Use real words"
+      },
+      "swapButtons": {
+        "title": "Swap buttons",
+        "desc": "Rearrange the buttons"
+      },
+      "darkMode": {
+        "title": "Dark mode",
+        "desc": "Switch dark or light theme"
+      },
+      "language": {
+        "title": "Language",
+        "desc": "Change language"
+      },
+      "howToPlay": "How to play"
+    },
+    "statistics": {
+      "title": "Statistics",
+      "played": "Games played",
+      "wins": "Games won",
+      "winRate": "% of wins",
+      "bestTry": "Best try",
+      "currentStreak": "Current streak",
+      "maxStreak": "Max streak",
+      "guessDist": "Best tries",
+      "clearBtn": "Clear"
+    },
+    "tutorial": {
+      "title": "How to play",
+      "description": "You have to guess the hidden word in {{tries}} tries and the color of the tiles changes to show how close you are",
+      "sample": {
+        "correct": {
+          "word": "dream",
+          "desc": {
+            "start": "The letter",
+            "end": "is in the word and in the correct spot"
+          }
+        },
+        "present": {
+          "word": "pilot",
+          "desc": {
+            "start": "The letter",
+            "end": "is in the word, but in the wrong spot"
+          }
+        },
+        "absent": {
+          "word": "vague",
+          "desc": {
+            "start": "The letter",
+            "end": "is not in the target word at all"
+          }
+        }
+      }
+    },
+    "hints": {
+      "title": "Hints",
+      "count": "You have {{count}}",
+      "correct": {
+        "title": "Correct",
+        "desc": "Show correct letter"
+      },
+      "absent": {
+        "title": "Absent",
+        "desc": "Show absent letters on keyboard"
+      }
+    }
+  }
+}

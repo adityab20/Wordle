@@ -1,0 +1,26 @@
+@import './fonts.scss';
+@import './variables/colors.scss';
+
+:root[mode='ios'],
+:root[mode='md'] {
+  --ion-font-family: 'Nunito', sans-serif !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+* {
+  user-select: none;
+}
+
+svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.hfull {
+  height: 100%;
+}
+
+.ripple-parent {
+  position: relative;
+  overflow: hidden;
+}

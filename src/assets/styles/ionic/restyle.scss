@@ -1,0 +1,17 @@
+ion-header,
+ion-footer {
+  &.md {
+    box-shadow: none;
+  }
+}
+
+ion-toggle {
+  --handle-width: 20px;
+  --handle-height: 20px;
+  --handle-border-radius: 50%;
+
+  &::part(track) {
+    width: 40px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,30 @@
+.board-size {
+  width: 80%;
+}
+
+ion-range {
+  &::part(tick),
+  &::part(tick-active) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  &::part(pin) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 28px;
+    height: 28px;
+    top: -1rem;
+    color: #fff;
+    transform: scale(1.01);
+    transition: transform 120ms ease, background 120ms ease;
+  }
+}
+
+ion-popover {
+  &::part(content) {
+    border-radius: 8px;
+  }
+}

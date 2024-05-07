@@ -1,0 +1,53 @@
+.tutorial {
+  &-desc {
+    ion-note {
+      width: 80%;
+    }
+  }
+}
+
+.sample-word {
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ion-color-text);
+    background: var(--ion-color-secondary);
+    border-radius: 5px;
+    margin: 2px;
+    width: 45px;
+    aspect-ratio: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &.correct {
+      color: var(--ion-color-light);
+      background: var(--ion-color-success);
+      text-shadow: 1px 1px 1px var(--ion-color-light-contrast);
+      font-weight: normal;
+    }
+
+    &.present {
+      color: var(--ion-color-light);
+      background: var(--ion-color-warning);
+      text-shadow: 1px 1px 1px var(--ion-color-light-contrast);
+      font-weight: normal;
+    }
+
+    &.absent {
+      color: var(--ion-color-light);
+      background: var(--ion-color-dark);
+      text-shadow: 1px 1px 1px var(--ion-color-light-contrast);
+      font-weight: normal;
+    }
+  }
+}
+
+ion-note {
+  span {
+    color: #fff;
+    margin: 0 0.2rem;
+    text-transform: uppercase;
+  }
+}

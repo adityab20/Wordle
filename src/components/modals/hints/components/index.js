@@ -1,0 +1,5 @@
+export { default as Title } from './Title'
+export { default as Count } from './Count'
+export { default as CurrentWord } from './CurrentWord'
+export { default as ShowCorrect } from './ShowCorrect'
+export { default as ShowAbcent } from './ShowAbcent'
